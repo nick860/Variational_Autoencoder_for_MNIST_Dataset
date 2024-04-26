@@ -5,12 +5,12 @@ This repository contains code for training and using a Variational Autoencoder (
 ## Overview
 
 The project consists of two main files:
-- `main.py`: Contains code for configuring, training, and using the VAE model.
+- `train.py`: Contains code for configuring, training, and using the VAE model.
 - `autoencoder.py`: Defines the architecture of the Variational Autoencoder as a PyTorch neural network model.
 
 ## Files
 
-- `main.py`: 
+- `train.py`: 
   - Configures and trains the VAE model.
   - Provides functionality to generate new images based on learned latent representations.
 
@@ -21,11 +21,11 @@ The project consists of two main files:
 ## Usage
 
 1. **Training the Model**:
-   - Run `main.py` to train the VAE model on the MNIST dataset.
+   - Run `train.py` to train the VAE model on the MNIST dataset.
    - Trained model parameters are saved in `model.pth`.
 
 2. **Generating New Images**:
-   - After training or loading the pre-trained model, you can generate new images by running `main.py`.
+   - After training or loading the pre-trained model, you can generate new images by running `train.py`.
    - Enter the digit you want to generate when prompted.
 
 ## Requirements
